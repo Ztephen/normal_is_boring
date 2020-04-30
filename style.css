@@ -1,0 +1,126 @@
+*{
+    font: 15px/1.5 Lato, Arial;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+
+}
+/* Global */
+.container{
+    width: 100%;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: larger;
+    padding: .8em;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.2);
+    padding:22px;
+}
+header img{
+    width: 150px;
+}
+ul{
+    list-style: none;    
+}
+a{
+    text-decoration: none;
+}
+/* Showcase */
+#showcase{    
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#showcase img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+#showcase h2{
+    margin-top: 0;
+}
+#showcase h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#showcase p{
+    margin-top: 0;    
+}
+#showcase a{
+    background-color: black;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+/* Collection */
+#collection{
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.2);
+   color: black;
+   padding:20px;
+}
+#collection h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+}
+#collection p{
+    margin-top: 0;
+}
+#collection .btn{
+    background-color: #f4f4f4;
+    color: black;
+    margin: 1em;
+}
+
+/* Products */
+#products .product{
+    text-align: center;
+    margin-top: 50px;
+}
+#products .product img{
+    width: 250px;
+    display: block;
+    margin: auto;
+    
+}
+
+#products .product .btn{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#products .product p{
+    margin: 15px;
+}
+
+/* Footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+footer .container {
+    display: flex;
+    justify-content: space-around;    
+}
+footer .container li{
+    margin-left: 0;
+}
+footer .container li a{
+    color: black;
+}
+ul p{
+    text-decoration: underline;
+}
